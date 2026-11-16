@@ -29,3 +29,6 @@ There is no install, build, lint or test suite.
 - Ports: 45500 to 45599 only. `check.mjs` takes the first free one; `serve.mjs` defaults to 45500.
 - No environment variables, no dependencies, no network use.
 - Requires Node.js with built-in `fetch` (verified with Node 24).
+
+## Versioning
+No version number (static test page). The page is identified by commits `e0197e8` (`index.html`) and `edffea3` (`_headers`), both 2024-11-21 and still the last changes to those files. Do not invent a version or add a changelog.

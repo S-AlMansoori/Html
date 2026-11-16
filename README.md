@@ -23,6 +23,17 @@ A two-file static page from November 2024, made to test deploying plain HTML thr
 - If a Pages project does publish this repository's root folder, the documentation files and `tools/` would be
   published as static files too once they reach the production branch.
 
+## Versioning
+
+This repository has **no version number**: it is a static test page, not a released product, so there is no
+`package.json`, no `VERSION` file, no release tags and no changelog, and no site version is stamped in the page. The
+page is identified by the git commit of `index.html` and `_headers`: neither has changed since
+2024-11-21 (`index.html` since commit `e0197e86d4c64f7770d7536aa86424719e0fc42e`, `_headers` since
+`edffea3e15ee7075f340e3723634d30842844ae9`). Everything else in the
+repository (README, agent notes, `tools/`) was added in November 2026 and documents or checks those two files.
+`git log -- index.html _headers` shows this. Because the repository may be published as a site, a date version
+would only make sense if the owner starts changing the page; none is invented here.
+
 ## View it locally (works offline)
 
 The only requirement is Node.js. There are no dependencies and nothing to install.
